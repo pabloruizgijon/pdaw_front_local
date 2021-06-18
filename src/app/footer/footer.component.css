@@ -1,4 +1,6 @@
 .footer {
+  background: rgb(31,29,28);
+  background: linear-gradient(90deg, rgba(31,29,28,1) 40%, rgba(74,161,255,1) 95%);
   position: absolute;
   bottom: 0px;
   height: 60px;

@@ -1,0 +1,35 @@
+.cabecera{
+    background: rgb(31,29,28);
+background: linear-gradient(90deg, rgba(31,29,28,1) 40%, rgba(74,161,255,1) 95%);
+    padding-left: 7%;
+    padding-right: 10%;
+}
+ 
+h4 {
+    font-weight: bold;
+    color: white;
+}
+
+.enlace {
+    font-family: StagSans-Light;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+.enlace:hover {
+    color: #5CBDEA;
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
+a.titulo {
+    font-family: Stag-Medium;
+    font-size: 2rem;
+    color: #4185CF;
+}
+
+i {
+    font-size: 1.2rem;
+}

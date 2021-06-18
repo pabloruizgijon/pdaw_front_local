@@ -14,3 +14,18 @@ body {
 .wrap{
   padding-bottom: 60px;
 }
+
+@font-face {
+  font-family: StagSans-Light;
+  src: url(assets/fonts/StagSans-Light.otf)
+}
+
+@font-face {
+  font-family: Stag-Medium;
+  src: url(assets/fonts/Stag-Medium.otf)
+}
+
+
+* {
+  font-family: StagSans-Light;
+}
