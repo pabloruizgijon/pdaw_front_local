@@ -33,3 +33,16 @@ a.titulo {
 i {
     font-size: 1.2rem;
 }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: 2px auto #21a9af;
+    box-shadow: none;
+}
+
+.navbar-toggler i{
+    color: white;
+}
+
+
