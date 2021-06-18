@@ -1,0 +1,19 @@
+version: '2'
+
+services: 
+    angular-service:
+        build:
+            context: .
+            dockerfile: Dockerfile.dev
+        volumes: 
+            - './:/usr/src/app'
+        ports: 
+            - "4200:4200"
+        container_name: front
+#        volumes:
+#            - my-vol:/home/imagenes
+#            - ./src/assets/imagenes/clientes-logo.png:/home/imagenes/logo.png
+
+volumes:
+    my-vol:
+        name: my-vol 
